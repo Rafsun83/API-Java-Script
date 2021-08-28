@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Meal Food</title>
+</head>
+<!-- search section -->
+
+<body class="bg-gray">
+    <section class="container">
+        <h1 class="text-center text-success">Search The Food What you want!!</h1>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input id="Input_ID" type="text" class="form-control" placeholder="search your favorite food"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-search"
+                onclick="SearchFood()">Search</button>
+        </div>
+        <!-- alart section for meal name  -->
+        <div class="text-center fs-1">
+            <p id="fail-text" class="notify ">❌ Please search you meal name</p>
+        </div>
+
+        <!-- food details section  -->
+        <div id="food-details" class="w-50 mx-auto">
+
+        </div>
+
+        <!-- food result section  -->
+        <div id="foodResult" class="row row-cols-1 row-cols-md-3 g-4">
+
+        </div>
+    </section>
+
+
+
+
+    <script src="MealFood.js"></script>
+</body>
+
+</html>
